@@ -3,7 +3,7 @@ def verificarFinalizacao():
     if verificacao == "s":
         calcular()
     elif verificacao == "n":
-        print("Fechando a Calculadora")
+        print("Fechando a Calculadora.")
     else:
         verificarFinalizacao()
 def calcular():
