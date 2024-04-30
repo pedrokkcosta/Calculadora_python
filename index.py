@@ -8,7 +8,7 @@ def verificarFinalizacao():
         verificarFinalizacao()
 def calcular():
     numero1 = int (input("Digite um numero: "))
-    numero2 = int (input("Digite outro numero: "))
+    numero2 = int (input("Digite outro número: "))
 
     tipoOperacao = input("Qual o tipo de operação?(+, -, *, /)")
     if tipoOperacao == "+":
